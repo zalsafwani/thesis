@@ -11,7 +11,7 @@
 
 
 ############################################
-# Run multi fastQC 
+# Run fastQC for multiple samples
 ############################################
 
 
@@ -43,6 +43,11 @@ for i in ${sample_name[@]}; do
 	fastqc $i"_2.fastq" -o qc/
 done
 echo "Finishied QC"
+
+
+############################################
+# Run multiqc for all fastQC results
+############################################
 
 # Run multiqc in order to look at the QC of the data in one report. 
 cd qc
