@@ -3,7 +3,7 @@
 module purge
 module load lefse/1.0
 
-cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust/run2/vis-lefse
+cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust/vis-lefse
 
 # Get the path_abun_unstrat.tsv file
 cp ../results/pathways_out/path_abun_unstrat.tsv.gz
