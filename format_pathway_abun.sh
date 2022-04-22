@@ -6,8 +6,8 @@ module load lefse/1.0
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust/run2/vis-lefse
 
 # Get the path_abun_unstrat.tsv file
-#cp ../results/pathways_out/path_abun_unstrat.tsv.gz
-#gunzip path_abun_unstrat.tsv.gz
+cp ../results/pathways_out/path_abun_unstrat.tsv.gz
+gunzip path_abun_unstrat.tsv.gz
 
 # Generate the sample list with conditions
 cut ../../../metadata.tsv -f 1,2 > sample_list_type.tsv
