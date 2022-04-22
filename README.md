@@ -7,6 +7,6 @@
 
 
 ## General overview of the pipeline.
-![pipeline-overview]()
+![pipeline-overview](Microbiome pipeline overview.png)
 
 ## Detalied steps in how to run the pipeline is avalible in the steps.txt file.
