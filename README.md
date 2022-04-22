@@ -7,6 +7,6 @@
 
 
 ## General overview of the pipeline.
-![pipeline-overview](Microbiome pipeline overview.png)
+![pipeline-overview](https://github.com/zalsafwani/thesis/blob/8e6ac6fc76ba5bdd8eb05fe4a7f484e132dc5429/Microbiome%20pipeline%20overview.png)
 
 ## Detalied steps in how to run the pipeline is avalible in the steps.txt file.
