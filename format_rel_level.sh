@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+module purge
+module load lefse/1.0
+
 # Get the phyla_table_rel_level files
 cp ../exports/phyla_table_rel_level_2/phyla_table_rel_level_2.tsv .
 cp ../exports/phyla_table_rel_level_3/phyla_table_rel_level_3.tsv .
@@ -18,9 +22,6 @@ python rel_format.py -i sample_list_type.tsv -r phyla_table_rel_level_4.tsv -o r
 python rel_format.py -i sample_list_type.tsv -r phyla_table_rel_level_5.tsv -o rel_level_5.tsv
 python rel_format.py -i sample_list_type.tsv -r phyla_table_rel_level_6.tsv -o rel_level_6.tsv
 python rel_format.py -i sample_list_type.tsv -r phyla_table_rel_level_7.tsv -o rel_level_7.tsv
-
-module purge
-module load lefse/1.0
 
 lefse-format_input.py rel_level_2.tsv rel_level_2.in -c 1 -u 2 -o 1000000
 run_lefse.py rel_level_2.in rel_level_2.res
