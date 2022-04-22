@@ -16,4 +16,4 @@ cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis/picrust
 module load picrust2/2.4
 
 sed '1d' feature-table.tsv > fixed-feature-table.tsv
-picrust2_pipeline.py -s aligned-dna-sequences.fasta -i fixed-feature-table.tsv -o picrust2_out_pipeline -p 1
+picrust2_pipeline.py -s ../../exports/rep-seqs/dna-sequences.fasta -i fixed-feature-table.tsv -o results
