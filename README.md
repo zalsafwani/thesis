@@ -21,7 +21,7 @@ QIIME2 Plugins: cutadapt trim-paired, demux summarize, dada2 denoise-paired, met
 - R version 4.1.2 with 'tidyverse' and 'qiime2R' package.
 
 
-## Detalied steps in how to run the pipeline is avalible in the steps.txt file.
+## Detailed steps in how to run the pipeline is avalible in the steps.txt file.
 Note that the full analysis could be run in Crane HOLLAND COMPUTING CENTER (HHC) without the need to install anything except for the step that create relative abundance plots (heatmap and barplot) which uses R and specific packages that are not available.
 
 ## License
