@@ -14,7 +14,7 @@ The first step is pre-processing the data with FastQC, MultiQC, then run QIIME2 
 - SRAtoolkit version 2.11
 - FastQC version 0.11
 - MultiQC version py37/1.8
-- QIIME2 version 2022.2
+- QIIME2 version 2021.4
 QIIME2 Plugins: cutadapt trim-paired, demux summarize, dada2 denoise-paired, metadata tabulate, feature-table filter-samples, feature-table summarize, feature-table tabulate-seqs, phylogeny align-to-tree-mafft-fasttree, feature-classifier classify-sklearn, taxa filter-table, taxa barplot, diversity core-metrics-phylogenetic, diversity pcoam, taxa collapse, feature-table relative-frequency, srs SRS, diversity alpha-group-significance, diversity beta-group-significance, composition add-pseudocount, and composition ancom.
 - LEfSe version 1.0
 - PICRUSt2 version 2.4
