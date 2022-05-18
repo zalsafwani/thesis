@@ -1,9 +1,11 @@
 A small dataset is provided where the users can run and compare the output to what they should be getting.
 The dataset is avalible in NCBI Sequence Read Archive (SRA) with Accession: PRJEB36789 (https://www.ncbi.nlm.nih.gov/bioproject/799168).
-The dataset is examining the microbiomes of colorectal cancer across non-Westernised country. The dataset included 155 samples (crc, healthy volunteer, and uk control). Only 9 samples (3 from each group) were selected for the analysis.
+The dataset is examining the microbiomes of colorectal cancer across non-Westernised country. 
+The dataset included 155 samples (crc, healthy volunteer, and uk control). Only 9 samples (3 from each group) were selected for the analysis.
 In order to run the analysis, follow the steps provied in the steps.md (Note no need to trim or remove adapter sequnces).
 Make sure to comment line lines 35-44 in part1.slurm (no need to remove adapter sequnces).
 Make sure to edit line 33 before runing the 'sbatch part2.slurm' (replace line 33 with '--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza'.
 Looking over the 'demux.qzv', decided to trim 5 bp fowrored and reverse, and truncate at 150 bp fowrored and reverse because reads have good quality. 
 A sampling depth 67580 was set which retained 608,220 (62.57%) features in 9 (100.00%) samples.
-The qiime2_results directory included some of the important results that are used to set values for the rest of the analysis such as 'demux.qzv' and table-viz.qzv. ('demux.qzv' is used to set trimming and truncating values. 'table-viz.qzv' is used to set sampling depth value.). Other important results are included in the qiime2_results directory as well.
+The qiime2_results directory included some of the important results that are used to set values for the rest of the analysis such as 'demux.qzv' and table-viz.qzv. ('demux.qzv' is used to set trimming and truncating values. 'table-viz.qzv' is used to set sampling depth value.). 
+Other important results are included in the qiime2_results directory as well.
