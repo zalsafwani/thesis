@@ -7,5 +7,6 @@ Make sure to comment line lines 35-44 in part1.slurm (no need to remove adapter 
 Make sure to edit line 33 before runing the 'sbatch part2.slurm' (replace line 33 with '--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza'.
 Looking over the 'demux.qzv', decided to trim 5 bp fowrored and reverse, and truncate at 150 bp fowrored and reverse because reads have good quality. 
 A sampling depth 67580 was set which retained 608,220 (62.57%) features in 9 (100.00%) samples.
-The qiime2_results directory included some of the important results that are used to set values for the rest of the analysis such as 'demux.qzv' and table-viz.qzv. ('demux.qzv' is used to set trimming and truncating values. 'table-viz.qzv' is used to set sampling depth value.). 
+The qiime2_results directory included some of the important results that are used to set values for the rest of the analysis such as 'demux.qzv' and table-viz.qzv. 
+'demux.qzv' is used to set trimming and truncating values. 'table-viz.qzv' is used to set sampling depth value. 
 Other important results are included in the qiime2_results directory as well.
