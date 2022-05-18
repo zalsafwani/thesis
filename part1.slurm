@@ -15,7 +15,7 @@
 ##########################################################################
 
 
-module load qiime2/2022.2
+module load qiime2/2021.4
 
 cd /work/biocore/zalsafwani/CRC_data/raw_reads/qiime2/second_analysis
 
