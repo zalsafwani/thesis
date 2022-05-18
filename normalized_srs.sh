@@ -1,6 +1,6 @@
 #!/bin/bash
 
-module load qiime2/2022.2
+module load qiime2/2021.4
 
 qiime srs SRS   \
     --i-table artifacts/table.qza   \
