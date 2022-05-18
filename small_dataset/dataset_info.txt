@@ -1,3 +1,4 @@
 A small dataset is provided where the users can run and compare the output to what they should be getting.
-The dataset is avalible in NCBI Sequence Read Archive (SRA) with Accession: PRJNA799168 (https://www.ncbi.nlm.nih.gov/bioproject/799168)
-Follow the steps provied in the steps.md in order to run the analysis.
+The dataset is avalible in NCBI Sequence Read Archive (SRA) with Accession: PRJEB36789 (https://www.ncbi.nlm.nih.gov/bioproject/799168).
+The dataset is examining the microbiomes of colorectal cancer across non-Westernised country. The dataset included 155 samples (crc, healthy volunteer, and uk control). Only 9 samples (3 from each group) were selected for the analysis.
+In order to run the analysis, follow the steps provied in the steps.md.
