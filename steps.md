@@ -61,7 +61,7 @@ Tools installation and packages:
     - Part 2 before running 'part2.slurm' check the following: 
         * Edit the path in line 8, 9, and 28.
         * In addition, look at the demux visulasation in the artifacts directory to assign trimming and truncating values.
-        * If adapter sequnces were removed, look at the 'paired-end-demux-trimmed.qzv' and replace line 30 with '--i-demultiplexed-seqs artifacts/paired-end-demux-trimmed.qza \'
+        * If adapter sequnces were removed, look at the 'paired-end-demux-trimmed.qzv' and replace line 33 with '--i-demultiplexed-seqs artifacts/paired-end-demux-trimmed.qza \'
         * If no adapter sequnces were removed, look at the 'demux.qzv'
         * Assign values for the dada2 denoising step line 18-21.
         * Make sure edit and check the file name of the refrence database line 72.
