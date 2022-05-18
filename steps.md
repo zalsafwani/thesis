@@ -2,7 +2,7 @@ Tools installation and packages:
 - SRAtoolkit version 2.11
 - FastQC version 0.11
 - MultiQC version py37/1.8
-- QIIME2 version 2022.2  
+- QIIME2 version 2021.4 
 - QIIME2 Plugins: 
     - cutadapt trim-paired (https://docs.qiime2.org/2022.2/plugins/available/cutadapt/trim-paired/)
     - demux summarize (https://docs.qiime2.org/2022.2/plugins/available/demux/summarize/)
@@ -47,10 +47,11 @@ Tools installation and packages:
     - Edit the paths in line 8, 9, and 20 then run qc.slurm
 
 3. Run Qiime2 
-    - Make dirctury called 'qiime2' and make sure QIIME2 version 2022.2 installed with all of the plugins listed above.
+    - Make dirctury called 'qiime2' and make sure QIIME2 version 2021.4 installed with all of the plugins listed above.
     - Bulid the manifest file using the 'manifest_builder.py' by specifiying -i acc_list_file -p path_to_the_raw_reads
     - Get the metadata.tsv in the right formate example is provided.
-    - Get the latest relese for the refrence database (SILVA or Greengenes (GG)).
+    - Get the latest relese for the refrence database (SILVA or Greengenes (GG)). 
+    - Naive Bayes classifiers trained on: both Greengenes and Silva classifiers are available here: https://docs.qiime2.org/2020.6/data-resources/#taxonomy-classifiers-for-use-with-q2-feature-classifier 
     - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and refrence database.
     - Part 1 before running 'part1.slurm' check the following: 
         * Edit the path in line 8, 9, and 20.
