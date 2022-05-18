@@ -36,7 +36,7 @@ Tools installation and packages:
     - Before running the script, go to the SRA Run Selector (https://www.ncbi.nlm.nih.gov/Traces/study/)
     - Then put the Sequence Read Archive (SRA) BioProject ID as an accession
     - Next select the samples you want then downlowd the accession list and metadata for the selected samples
-    - Check the accession list file and name it 'SRR_Acc_List.txt'. Once the file is created (each line have one accession number).
+    - Check the accession list file and name it 'SRR_Acc_List.txt' and make sure to leave one new line in the end of the file. Once the file is created (each line have one accession number).
     - Finally, run the 'bash get_fastq.sh' in the directory you wish to get the sequnces.
 
 2. Pre-prosses the data using FastQC and MultiQC.
