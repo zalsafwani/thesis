@@ -1,0 +1,2 @@
+A small dataset is provided where the users can run and compare the output to what they should be getting.
+The dataset is avalible in NCBI Sequence Read Archive (SRA) with Accession: PRJNA799168 (https://www.ncbi.nlm.nih.gov/bioproject/799168)
