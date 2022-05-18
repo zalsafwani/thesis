@@ -1,4 +1,6 @@
 A small dataset is provided where the users can run and compare the output to what they should be getting.
 The dataset is avalible in NCBI Sequence Read Archive (SRA) with Accession: PRJEB36789 (https://www.ncbi.nlm.nih.gov/bioproject/799168).
 The dataset is examining the microbiomes of colorectal cancer across non-Westernised country. The dataset included 155 samples (crc, healthy volunteer, and uk control). Only 9 samples (3 from each group) were selected for the analysis.
-In order to run the analysis, follow the steps provied in the steps.md.
+In order to run the analysis, follow the steps provied in the steps.md (Note no need to trim or remove adapter sequnces).
+Make sure to comment line lines 35-44 in part1.slurm (no need to remove adapter sequnces).
+Make sure to edit line 33 before runing the 'sbatch part2.slurm' (replace line 33 with '--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza'.
