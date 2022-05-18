@@ -4,3 +4,4 @@ The dataset is examining the microbiomes of colorectal cancer across non-Western
 In order to run the analysis, follow the steps provied in the steps.md (Note no need to trim or remove adapter sequnces).
 Make sure to comment line lines 35-44 in part1.slurm (no need to remove adapter sequnces).
 Make sure to edit line 33 before runing the 'sbatch part2.slurm' (replace line 33 with '--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza'.
+Looking over the 'demux.qzv', decided to trim 5 bp fowrored and reverse, and truncate at 150 bp fowrored and reverse because reads have good quality. 
