@@ -25,7 +25,7 @@ QIIME2 Plugins: cutadapt trim-paired, demux summarize, dada2 denoise-paired, met
 Note that the full analysis could be run in Crane HOLLAND COMPUTING CENTER (HHC) (https://hcc.unl.edu/) without the need to install anything except for the step that create relative abundance plots (heatmap and barplot) which uses R and specific packages that are not available.
 
 ## More information
-Zahraa Wajih Alsafwani. A Pipeline for Reproducible Human 16S rRna Microbiome Analysis. University of Nebraska at Omaha ProQuest Publishing, 2022.  
+Zahraa Wajih Alsafwani. A Pipeline for Reproducible Human 16S rRna Microbiome Analysis. University of Nebraska at Omaha ProQuest Dissertations Publishing, 2022. 29212761.
 
 
 ## License
